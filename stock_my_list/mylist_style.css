@@ -6,107 +6,45 @@
     background-color: #141319;
 }
 
-.stock_list {
-    width: 369px;
-    height: 30px;
-    flex-grow: 0;
-    padding: 0px 0px 12px 0px;
-    background-color: #141319;
-}
-
-.stock_list_title {
-    width: 78px;
-    height: 25px;
-    flex-grow: 0;
-    margin: 9px 191px 8px 0;
-    object-fit: contain;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    -webkit-text-stroke: 1px #000;
-    font-family: Inter;
-    font-size: 21px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #ffffff;
-}
-
 .kategorie {
-    width: 369px;
-    height: 66px;
-    flex-grow: 0;
-    padding: 15px 0 15px 0px;
-    background-color: #141319;
-    display: flex;
+    background-color: #0c0b10;
+    border-radius: 50px;
+    color: #7d7d85;
+    font-size: 15px;
+    padding: 15px 22px 15px 22px;
+    text-align: center;
+    display: inline-block;
 }
 
-.kategorie-1 {
-    width: 150px;
-    height: 50px;
-    flex-grow: 0;
-    margin: 0 9px 0 0;
-    padding: 11px 18px 10px;
-    border-radius: 50px;
+.kategorie_1 {
     background-color: #2f2f3b;
-}
-
-.kategorie-1_name {
-    width: 45px;
-    height: 15px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 15px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #fff;
-}
-
-.kategorie-2 {
-    width: 81px;
-    height: 36px;
-    flex-grow: 0;
-    margin: 0 9px;
-    padding: 11px 18px 10px;
     border-radius: 50px;
-    background-color: #0c0b10;
-}
-
-.kategorie-2_name {
-    width: 45px;
-    height: 15px;
-    flex-grow: 0;
-    font-family: Inter;
+    color: white;
     font-size: 15px;
-
-    text-align: left;
-    color: #7d7d85;
+    padding: 15px 22px 15px 22px;
+    text-align: center;
+    display: inline-block;
 }
 
-.kategorie-3 {
-    width: 102px;
-    height: 36px;
-    flex-grow: 0;
-    margin: 0 8px 0 9px;
-    padding: 11px 19px 10px 18px;
+.kategorie_plus {
+    background-color: #212026;
     border-radius: 50px;
-    background-color: #0c0b10;
+    color: #7d7d85;
+    font-size: 15px;
+    padding: 15px 22px 15px 22px;
+    border: solid 1px #45444c;
+    text-align: center;
+    display: inline-block;
 }
 
-.kategorie-3_name {
-    width: 65px;
-    height: 15px;
-    flex-grow: 0;
-    font-family: Inter;
-    font-size: 12px;
+.kategorie_list_scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
 
-    text-align: left;
-    color: #7d7d85;
+.kategorie_list_scroll::-webkit-scrollbar {
+    display: none;
+    /* 기능은 있지만 스크롤 바 숨김 */
 }
 
 .drop {
@@ -128,9 +66,45 @@
 
 .stock_list_scroll {
     overflow: auto;
-    height: 700px;
+    height: 600px;
 }
 
 .stock_list_scroll::-webkit-scrollbar {
     display: none;
+    /* 기능은 있지만 스크롤 바 숨김 */
+}
+
+.tab {
+    color: white;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+}
+
+.tab .tab_det {
+    width: 20%;
+}
+
+.nav {
+    height: 30px;
+    width: 400px;
+}
+
+.nav ul li {
+    list-style: none;
+    color: white;
+    float: left;
+    line-height: 30px;
+    /* vertical-align: middle;      */
+    text-align: center;
+
+}
+
+.nav .link {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 70px;
+    position: relative;
+
 }
