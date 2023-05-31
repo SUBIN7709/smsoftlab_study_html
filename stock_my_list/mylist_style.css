@@ -80,3 +80,31 @@
     /* 기능은 있지만 스크롤 바 숨김 */
 }
 
+#list {
+    width: 450px;
+}
+
+#list ul li {
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d; 
+    float: left;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#list .menuLink {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 80px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Trebuchet MS", Dotum, Arial;
+}
+
+#list .menuLink:hover {
+    color: #DCACAD;
+    background-color: #4d4d4d;
+}
