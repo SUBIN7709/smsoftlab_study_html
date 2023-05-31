@@ -81,7 +81,7 @@
 }
 
 #list {
-    width: 450px;
+    width: 100%;
 }
 
 #list ul li {
@@ -98,10 +98,9 @@
     text-decoration: none;
     color: white;
     display: block;
-    width: 80px;
+    /* width: 80px; */
     font-size: 12px;
     font-weight: bold;
-    font-family: "Trebuchet MS", Dotum, Arial;
 }
 
 #list .menuLink:hover {
