@@ -125,3 +125,12 @@
 .stock_list_text-size {
     font-size: 17px;
 }
+
+.stock_list_scroll {
+    overflow: auto;
+    height: 700px;
+}
+
+.stock_list_scroll::-webkit-scrollbar {
+    display: none;
+}
