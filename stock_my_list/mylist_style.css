@@ -1,6 +1,6 @@
 .body {
-    width: 369px;
-    height: 800px;
+    width: 400px;
+    height: 500px;
     flex-grow: 0;
     padding: 14px 21px 422px;
     background-color: #141319;
@@ -110,91 +110,18 @@
 }
 
 .drop {
-    width: 369px;
-    height: 66px;
-    flex-grow: 0;
-    /* padding: 25px 0px 26px 0px; */
-    background-color: #141319;
-    display: flex;
-}
-
-.drop_1 {
-    width: 50px;
-    height: 15px;
-    flex-grow: 0;
-    margin: 0 9px 0 0;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
+    font-size: 14px;
     color: #7d7d85;
 }
 
-.drop_2 {
-    width: 50px;
-    height: 15px;
-    flex-grow: 0;
-    margin: 0 6px 0 224px;
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: left;
-    color: #aaa8b3;
-}
-
-/* .stock_list_1 {
-    width: 369px;
-    height: 66px;
-    flex-grow: 0;
-     padding: 16px 21px 15px 22px; 
-    background-color: #141319;
-    display: flex;
-}
-
-.stock_list_img {
-    width: 33px;
-    height: 35px;
-    flex-grow: 0;
-    margin: 0 10px 0 0;
-}
-
-.stock_list_1_name {
-    width: 60px;
-    height: 17px;
-    flex-grow: 0;
-    margin: 8px 10px 10px;
-    font-family: Inter;
+.drop_box {
+    border-style: none;
+    background-color: transparent;
+    color: white;
     font-size: 14px;
-    text-align: left;
-    color: #fefefe;
+    color: #7d7d85;
 }
 
-.stock_list_1_prc {
-    width: 55px;
-    height: 16px;
-    flex-grow: 0;
-    margin: 2px 1px 3px 22px;
-    font-family: Inter;
-    font-size: 13px;
-    text-align: right;
-    color: #fff;
+.stock_list_text-size {
+    font-size: 17px;
 }
-
-.stock_list_1_prc_1 {
-    width: 72px;
-    height: 12px;
-    flex-grow: 0;
-    margin: 3px 0 2px 6px;
-    font-family: Inter;
-    font-size: 10px;
-    text-align: right;
-    color: #ed4634;
-} */

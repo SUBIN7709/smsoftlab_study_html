@@ -11,15 +11,34 @@
 
 <body>
     <div class="body">
-        <div class="stock_list">
-            <span class="stock_list_title">
-                찜한주식
-            </span>
-            <span class="stock_list_title">
-                +
-            </span>
-        </div>
-        <div class="kategorie">
+        <table width="100%" style="color: white;" margin="auto;">
+            <tr>
+                <td style="font-size: 23px;font-weight: 500;">찜한주식</td>
+                <td style="text-align: center; width: 40px;"><img src="images/icon_plus.png" alt="icon_plus"
+                        loading="lazy" width="22px"></td>
+                <td style="text-align: right; width: 40px;"><img src="images/icon_pen_line.png" alt="icon_pen_line"
+                        loading="lazy" width="22px"></td>
+            </tr>
+            <tr>
+                <td style="height: 20px;"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select class="drop_box">
+                        <option value="1">&nbsp;&nbsp;&nbsp;현재가&nbsp;&nbsp;</option>
+                    </select>
+                </td>
+                <td style="text-align: right;">
+                    <select class="drop_box">
+                        <option value="1">&nbsp;&nbsp;&nbsp;득락률&nbsp;&nbsp;</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="height: 20px;"></td>
+            </tr>
+        </table>
+        <!-- <div class="kategorie">
             <button class="kategorie-1" type="button">
                 <span class="kategorie-1_name">
                     최근조회
@@ -35,82 +54,206 @@
                     관심그룹001
                 </span>
             </div>
+        </div> -->
+        <div style="overflow-y: scroll; height:700px;">
+            <table width="100%" style="color: white; overflow-y: scroll;" margin="auto; ">
+                <tr>
+                    <td rowspan="2" style="text-align: center;width: 50px;"><img src="images/samaung.png" alt="samaung"
+                            loading="lazy" width="50"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">삼성전자</td>
+                    <td align="right" class="stock_list_text-size">70,300원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">1,500원 (2.18%)</td>
+                </tr>
+                <tr>
+                    <td style="height: 15px;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/hormel.png" alt="hormel" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">호멜 푸즈</td>
+                    <td align="right" class="stock_list_text-size">$38.34</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #B4B4BE;font-size: 15px;">$0.00 (0%)</td>
+                </tr>
+                <tr>
+                    <td style="height: 15px;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/JPM.png" alt="JPM" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">제이피모간 체이스</td>
+                    <td align="right" class="stock_list_text-size">$136.10</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">$0.43 (0.32%)</td>
+                </tr>
+                <tr>
+                    <td style="height: 15px;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/LG.png" alt="LG" loading="lazy"
+                            width="42"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">LG에너지솔루션</td>
+                    <td align="right" class="stock_list_text-size">577,000원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #5380E4;font-size: 15px;">6,000원 (1.03%)</td>
+                </tr>
+                <tr>
+                    <td style="height: 15px;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/bank.png" alt="bank" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">뱅크오브아메리카</td>
+                    <td align="right" class="stock_list_text-size">$28.15</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #5380E4;font-size: 15px;">$0.02 (0.07%)</td>
+                </tr>
+                <tr>
+                    <td style="height: 15px;"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td style="height: 15px;"></td>
+                </tr>
+                <!-- 단순 스크롤 확인용 내용 -->
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" style="text-align: center;"><img src="images/SK.png" alt="SK" loading="lazy"
+                            width="44"></td>
+                    <td rowspan="2" style="width: 3px;"></td>
+                    <td rowspan="2" class="stock_list_text-size">SK하이닉스</td>
+                    <td align="right" class="stock_list_text-size">109,200원</td>
+                </tr>
+                <tr>
+
+                    <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
+                </tr>
+            </table>
         </div>
-        <div class="drop">
-            <span class="drop_1">
-                현재가
-            </span>
-            <span class="drop_2">
-                득략률
-            </span>
-        </div>
-        <table width=369 height=70 style="color: white;">
-            <tr>
-                <td rowspan="2" style="width: 33px;">image</td>
-                <td rowspan="2" style="font-size: 17px;">삼성전자</td>
-                <td align="right" style="font-size: 15px;">70,300원</td>
-            </tr>
-            <tr>
-
-                <td align="right" style="color: #ed4634;font-size: 15px;">1,500원 (2.18%)</td>
-            </tr>
-        </table>
-        <table style="color: white;" width=369 height=70>
-            <tr>
-                <td rowspan="2" style="width: 33px;">image</td>
-                <td rowspan="2" style="font-size: 17px;">호멜 푸즈</td>
-                <td align="right" style="font-size: 15px;">$38.34</td>
-            </tr>
-            <tr>
-
-                <td align="right" style="color: #B4B4BE;font-size: 15px;">$0.00 (0%)</td>
-            </tr>
-        </table>
-        <table style="color: white;" width=369 height=70>
-            <tr>
-                <td rowspan="2" style="width: 33px;">image</td>
-                <td rowspan="2" style="font-size: 17px;">제이피모간 체이스</td>
-                <td align="right" style="font-size: 15px;">$136.10</td>
-            </tr>
-            <tr>
-
-                <td align="right" style="color: #ed4634;font-size: 15px;">$0.43 (0.32%)</td>
-            </tr>
-        </table>
-        <table style="color: white;" width=369 height=70>
-            <tr>
-                <td rowspan="2" style="width: 33px;">image</td>
-                <td rowspan="2" style="font-size: 17px;">LG에너지솔루션</td>
-                <td align="right" style="font-size: 15px;">577,000원</td>
-            </tr>
-            <tr>
-
-                <td align="right" style="color: #5380E4;font-size: 15px;">6,000원 (1.03%)</td>
-            </tr>
-        </table>
-        <table style="color: white;" width=369 height=70>
-            <tr>
-                <td rowspan="2" style="width: 33px;">image</td>
-                <td rowspan="2" style="font-size: 17px;">뱅크오브아메리카</td>
-                <td align="right" style="font-size: 15px;">$28.15</td>
-            </tr>
-            <tr>
-
-                <td align="right" style="color: #5380E4;font-size: 15px;">$0.02 (0.07%)</td>
-            </tr>
-        </table>
-        <table style="color: white;" width=369 height=70>
-            <tr>
-                <td rowspan="2" style="width: 33px;">image</td>
-                <td rowspan="2" style="font-size: 17px;">SK하이닉스</td>
-                <td align="right" style="font-size: 15px;">109,200원</td>
-            </tr>
-            <tr>
-
-                <td align="right" style="color: #ed4634;font-size: 15px;">5,700원 (5.51%)</td>
-            </tr>
-        </table>
-
     </div>
 </body>
 
