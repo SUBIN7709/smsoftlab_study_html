@@ -2,9 +2,13 @@
     width: 400px;
     height: 500px;
     flex-grow: 0;
-    padding: 14px 21px 422px;
+    padding: 14px 0px 422px;
     background-color: #141319;
 }
+
+/* .body_plus{
+    padding: 0px 12px 0px 12px;
+} */
 
 .kategorie {
     background-color: #0c0b10;
@@ -40,6 +44,7 @@
 .kategorie_list_scroll {
     overflow: auto;
     white-space: nowrap;
+    padding: 0px 22px 0px ;
 }
 
 .kategorie_list_scroll::-webkit-scrollbar {
@@ -66,7 +71,8 @@
 
 .stock_list_scroll {
     overflow: auto;
-    height: 600px;
+    height: 660px;
+    padding: 0px 22px 0px 22px;
 }
 
 .stock_list_scroll::-webkit-scrollbar {
@@ -74,37 +80,3 @@
     /* 기능은 있지만 스크롤 바 숨김 */
 }
 
-.tab {
-    color: white;
-    width: 400px;
-    height: 40px;
-    text-align: center;
-}
-
-.tab .tab_det {
-    width: 20%;
-}
-
-.nav {
-    height: 30px;
-    width: 400px;
-}
-
-.nav ul li {
-    list-style: none;
-    color: white;
-    float: left;
-    line-height: 30px;
-    /* vertical-align: middle;      */
-    text-align: center;
-
-}
-
-.nav .link {
-    text-decoration: none;
-    color: white;
-    display: block;
-    width: 70px;
-    position: relative;
-
-}
