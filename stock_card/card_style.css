@@ -1,7 +1,124 @@
-.iPhone-14-Pro {
-    width: 393px;
-    height: 852px;
-    flex-grow: 0;
-    padding: 61px 0 392px 13px;
-    background-color: #000;
-  }
+.Android-Large {
+  width: 780px;
+  /* height: 1249px; */
+  /* flex-grow: 0; */
+  /* padding: 22px 10px 77px 24px; */
+  background-color: #141319;
+}
+
+.stock_list_scroll {
+  overflow: auto;
+  height: 710px;
+  padding: 20px 22px 0px 22px;
+}
+
+.stock_list_scroll::-webkit-scrollbar {
+  display: none;
+  /* 기능은 있지만 스크롤 바 숨김 */
+}
+
+.myPage_title {
+  width: 700px;
+  /* height: 103px; */
+  flex-grow: 0;
+  /* padding: 15px 20px 15px 20px; */
+  /* background-color: #141319; */
+}
+
+.mypage_kategorie {
+  width: 100%;
+  /* height: 60px; */
+  line-height: 60px;
+  color: white;
+  /* position: fixed; */
+  /* bottom: 0; */
+  border-radius: 50px;
+  background-color: #1d1a21;
+}
+
+.mypage_list_type ul li {
+  list-style-type: none;
+  padding-left: 0;
+  text-decoration: none;
+
+}
+
+.mypage_list {
+  width: 22%;
+  display: inline-block;
+  text-align: center;
+}
+
+.mypage_list a {
+  text-decoration: none;
+  /* color: inherit; */
+  color: #b1b3bf;
+}
+
+.mypage_list:hover {
+  color: #070800;
+  background-color: #f2f218;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+#switch {
+  position: absolute;
+  /* hidden */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.switch_label {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  width: 58px;
+  height: 28px;
+  /* background: #fff; */
+  background: #83811a;
+  /* border: 2px solid #daa; */
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+/* .switch_label:hover {
+  background: #efefef;
+} */
+
+.onf_btn {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  border-radius: 20px;
+  /* background: #daa; */
+  background: #f2f218;
+  transition: 0.2s;
+}
+
+/* checking style */
+#switch:checked+.switch_label {
+  /* background: #c44;
+  border: 2px solid #c44; */
+  background: #83811a;
+}
+
+/* #switch:checked+.switch_label:hover {
+  background: #e55;
+} */
+
+/* move */
+#switch:checked+.switch_label .onf_btn {
+  left: 33px;
+  /* background: #fff; */
+  background: #f2f218;
+  box-shadow: 1px 2px 3px #00000020;
+}
